@@ -117,4 +117,7 @@ Communcation through I/O devices
     
   
   ### 1.3: Computer-System Architecture
-  
+  Idea: 
+ - Single Processor Systems
+ One main CPU is capable of executing instruction set including instructions from user processes.
+ - Multiprocessor Systems
