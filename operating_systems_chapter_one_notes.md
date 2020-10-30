@@ -52,3 +52,8 @@ A modern computer system consists of one or more CPUs and device controllers con
   
   
     ![Interrupt timeline for a single process doing output](https://i.imgur.com/6apCZuP.png)
+    
+
+- The CPU only load instructions from memory where run programs are stored.
+- ROM vs. EEPROM 
+    - ROM: cannot be changed, ROM can only stores static programs e.g. bootstrap program.
