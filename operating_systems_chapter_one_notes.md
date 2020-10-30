@@ -55,5 +55,53 @@ A modern computer system consists of one or more CPUs and device controllers con
     
 
 - The CPU only load instructions from memory where run programs are stored.
-- ROM vs. EEPROM 
+- **ROM vs. EEPROM** 
     - ROM: cannot be changed, ROM can only stores static programs e.g. bootstrap program.
+    - EEPROM: can be changed but not frequently. e.g. smartphones store their **factory-installed programs** in EEPROM.
+    
+Interaction is achieved through a sequence of load or store instructions to specific memory addressesز
+
+- **Load Instruction vs Store Instruction**
+    - Load Instruction: **moves the content from main memory to an internal register within the CPU**.
+    - Store Instruction: **moves the content of a register to main memory**.
+    
+- Ideally, we want the programs and data to reside in main memory permanently. This arrangement usually is not possible for the following two reasons:
+    1. Main memory is usually too small to store all needed programs and data permanently.
+    2. Main memory is a volatile storage device that loses its contents whe power is turned off or otherwise lost.
+    
+- **Secondary Storage/Memory** holds a large quantities of data permanently e.g. magnetic disk.
+- Also, There is other storage systems such **cache, cd-rom and magentic tapes**.
+
+- Overall, Storage system provides the basic functions of storing a datum and holding that datum until it is retrieved at a later time. The main
+differences **among the various storage systems** lie in **speed**, **cost**, **size**, and **volatility**.
+
+- **Volatile Storage Vs. Nonvolatile Storage**:
+    - Volatile storage: loses its contents when the power to the device is removed. 
+    - Nonvolatile storage: don't lose its contents and is used for safekeeping the data.
+    
+ *Note: Storage is a type of I/O devices within a computer*
+
+![Storage-device hierarchy](https://i.imgur.com/5tiIyRu.png)
+
+**I/O System**
+- A large portion of an operating system must be dedicated to manage I/O devices to assure reliability and performance of a system.
+- Any device (I/O unit) consists of mechanical componenet and an electronic component. This electric component is a called a device controller.
+- Device Controller: is an interface between the device and device driver. it maintaints some local buffer storage and a set of special-purpose registers.
+- Device Driver: a software allows the operating system to identify and handle a particular device.
+
+- Any device connected to the computer is connected by a plug and socket, and the socket is connected to a device controller. Following is a model for connecting the CPU, memory, controllers, and I/O devices where CPU and device controllers all use a common bus for communication.
+
+![I/O devices](https://www.tutorialspoint.com/operating_system/images/device_controllers.jpg)
+
+I/O operations: 
+
+To start an I/O operation, the device driver loads the appropriate registers within the device controller. The device controller, in turn, examines the contents of these registers to determine what action to take (such as “read a character from the keyboard”). The controller starts the transfer of data from the device to its local buffer. 
+Once the transfer of data is complete, the device controller informs the device driver via an interrupt that it has finished its operation. The device driver then returns control to the operating system, possibly returning the data or a pointer to the data if the operation was a read. For other operations, the device driver returns status information. 
+
+Communcation through I/O devices
+- There are three ways that allows the CPU to send or recieve an information through I/O devices.
+    - Special Instruction I/O: allow data to be sent to an I/O device or read from an I/O device.
+    - Memory-Mapped Instruction I/O: The memory handles the instructions from I/O devices as The device is mainly connected to it.
+        Memory mapped IO is used for most high-speed I/O devices like disks, communication interfaces.
+    ![Memory-Mapped Instruction Cycle](https://www.tutorialspoint.com/operating_system/images/memory_mapped_io.jpg)
+    - Direct Memory Access: 
