@@ -1,7 +1,11 @@
 # Chapter One: Introduction 
-- [1.1: What Operating Systems Do?](1.1: What Operating Systems Do?)
-- [1.2: Computer-System Organization](1.2: Computer-System Organization)
-- [1.3: Computer-System Architecture](1.3: Computer-System Architecture)
+
+# Table of Contents
+[1.1: What Operating Systems Do?](#11-what-operating-systems-do)
+
+[1.2: Computer-System Organization](#12-computer-system-organization)
+
+[1.3: Computer-System Architecture](#13-computer-system-architecture)
 
 ### 1.1: What Operating Systems Do?
 - A computer system is divided into: **Hardware**, **Operating System**, **Application Programs** and **Users**.
