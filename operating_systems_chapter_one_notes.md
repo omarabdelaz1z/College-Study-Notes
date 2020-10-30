@@ -105,3 +105,9 @@ Communcation through I/O devices
         Memory mapped IO is used for most high-speed I/O devices like disks, communication interfaces.
     ![Memory-Mapped Instruction Cycle](https://www.tutorialspoint.com/operating_system/images/memory_mapped_io.jpg)
     - Direct Memory Access: 
+    
+    
+    
+  
+  ### 1.3: Computer-System Architecture
+  
