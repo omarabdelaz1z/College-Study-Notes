@@ -115,9 +115,67 @@ Communcation through I/O devices
     
     
     
+### 1.3: Computer-System Architecture
   
-  ### 1.3: Computer-System Architecture
-  Idea: 
- - Single Processor Systems
- One main CPU is capable of executing instruction set including instructions from user processes.
- - Multiprocessor Systems
+#### Single Processor Systems
+
+   - Most Modern Personal Computers (PCs) are single processor systems.
+   - Main CPU) is capable of executing a process one at a time and then the next process is selected from the ready queue.
+   
+   ![Single Processors](https://www.tutorialspoint.com/assets/questions/media/10916/Single%20Processor.PNG)
+   
+   - General-Purpose Examples: I/O processors that move data among system components.
+   - Specific-Purpose Examples: Device Processors such as disk, keyboard and graphics controllers.
+       
+#### Multiprocessor Systems
+- Known as **parallel systems or multicore systems**. 
+- Systems with two or more processors sharing computer components.
+- Advantages:
+
+    - *Increasing throughput*: **More Processors, More Work Done** with a certain amount of overhead to keep computer parts working properly due to the shared resources.
+
+    - *Economy of Scale*: Multiprocessor System cost less than multiple single-processor systems due to shared resources such as storage, power supply and peripherals.
+
+    - *Increased Reliability*: If exists any failure on one of the processors the system won't halt, the system will just slow down.
+
+*Note: Systems have multiprocessors, provides graceful degradation service also called. Because they can suffer a failure of any single component and still continue operation. This service requires a mechanism to detect failures*.
+
+- Types of Multiprocessor Systems:
+    1. Asymmetric Multiprocessor Systems: There exists a manager (boss processor) which controls the system and schedules and allocate works for the worker processors. I.e. Each Processor assigned for task to accomplish.
+
+    2. Symmetric Multiprocessor Systems (SMPS): There's no manager here, all processors (also known in this case as peers) assigned to perform all tasks within the operating system. all peers share physical memory. The benefit from SMP is to run processes simultaneously N processes can run if there are N CPUs.
+
+        *Note: we must carefully control I/O to ensure that the data reach the appropriate processor.*
+        
+        ![Symmetric Multiprocessor Architecture](https://i.imgur.com/6G7M8TZ.png)
+
+    In general: Multiprocessing adds CPUs to **increase computing power**. If the CPU has an integrated memory controller, then adding CPUs can also increase the amount of memory addressable in the system. Either way, multiprocessing can cause a system to change its memory access model from uniform memory access (UMA) to non-uniform memory access (NUMA). 
+
+    - **UMA**: access to any RAM from any CPU takes the same amount of time.
+    - **NUMA**: some parts of memory may take longer to access than other parts, creating a performance penalty. 
+
+    Operating systems can minimize the NUMA penalty through resource management.
+
+    - Multiprocessor systems with single core is less efficient than a single processor systems with multiple chips because **on-chip communication is faster** and also consumes less power than multiple single-core chips.
+
+    *Note: It is important to note that while multi-core systems are multiprocessor systems, not all multiprocessor systems are multi-core*.
+    *Note: From the operating system view, these multi-core processors appear as N standard processors.*
+        ![A dual-core design with two cores placed on the same chip.](https://i.imgur.com/pbT5Dsp.png)
+
+    3. Clustered Systems: 
+        ![General structure of a clustered system.](https://i.imgur.com/GrvKqm4.png)
+        - systems consists of two or more **loosely-coupled systems**. 
+        - Each node (system) may vary from single processor system or a multi-core system. These clustered systems **share storage and network via LAN or WAN (CLOUD)**. 
+        - Clustering provides **high-availability service** (similar to reliability that stated above when discussing advantages of multiprocessor systems.)
+
+        - There's two types of clustering: 
+
+            - **asymmetric**: one machine is in hot-standby mode in which do nothing but monitor the server and the systems running the applications.
+            - **symmetric**: two or more hosts running application and monitor each other, they use all available hardware thats why they are efficient.
+        - Systems which support **parallelization**, which divides a program into separate components that run in parallel on individual computers in the cluster. *Note: The application must be written to use parallelization*.
+
+        - clusters can provide **high-performance computing (HPC) environments**.
+            Such systems can supply significantly greater computational power than single-processor or even SMP systems 
+            because they can run an application concurrently on all computers in the cluster.     
+        - Usually sharing storage via **storage-area network (SAN)**
+        - Some have distributed lock manager (DLM) to avoid conflicting operations.
