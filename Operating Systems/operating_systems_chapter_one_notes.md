@@ -212,3 +212,11 @@ Communcation through I/O devices
     - Also, the system must provide mechanisms for **Job Synchronization, Communication and Deadlock Manager**.
     
 ### 1.5: Operating-System Operations
+### 1.5: Operating-System Operations
+### 1.6: Process Management
+### 1.7: Memory Management
+### 1.8: Storage Management
+### 1.9: Protection and Security
+### 1.10: Kernel Data Structures
+### 1.11: Computing Environments
+### 1.12: Open-Source Operating Systems
