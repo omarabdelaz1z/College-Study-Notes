@@ -218,5 +218,23 @@ Communcation through I/O devices
 ### 1.8: Storage Management
 ### 1.9: Protection and Security
 ### 1.10: Kernel Data Structures
+
+Usage of Data structures in Operating Systems:
+- The array represents the construction of the main memory.
+
+- Lists - such as linked lists - are sometimes used by kernel algorithms and frequently used to construct other data structures such stacks and queues.
+
+- The operating system uses a Stack when invoking function calls as the operating system pushes parameters, local variables and return address into stack. The stack becomes empty when returning from the function call.
+
+- The operating system uses Queues to execute jobs in order (First In First Out). These jobs are waiting in a queue to be run on available CPU.
+
+- Trees is data structure used to represent hierarchical data. For Example, Linux uses a balanced binary search tree as part its CPU-scheduling algorithm
+
+- Hash functions are used extensively in operating systems because it retrieves data in O(1).
+
+- Bitmaps are used to indicate the status of n items using binary representation. For example, we can know the status of each resource stored in that data structure denoted with 0 or 1. 
+
+- Also, Bitmaps can be used to indicate the availability of each disk block in a disk drive.
+
 ### 1.11: Computing Environments
 ### 1.12: Open-Source Operating Systems
