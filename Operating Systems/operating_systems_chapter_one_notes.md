@@ -9,7 +9,7 @@
 
 [1.4: Computer-System Structure](#14-computer-system-structure)
 
-[1.4: Computer-System Operations](#14-computer-system-operations)
+[1.5: Computer-System Operations](#14-computer-system-operations)
 
 ### 1.1: What Operating Systems Do?
 - A computer system is divided into: **Hardware**, **Operating System**, **Application Programs** and **Users**.
