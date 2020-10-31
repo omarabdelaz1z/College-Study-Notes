@@ -7,6 +7,10 @@
 
 [1.3: Computer-System Architecture](#13-computer-system-architecture)
 
+[1.4: Computer-System Structure](#14-computer-system-structure)
+
+[1.4: Computer-System Operations](#14-computer-system-operations)
+
 ### 1.1: What Operating Systems Do?
 - A computer system is divided into: **Hardware**, **Operating System**, **Application Programs** and **Users**.
 - Hardware **provides basic resources** for the system.
@@ -179,3 +183,32 @@ Communcation through I/O devices
             because they can run an application concurrently on all computers in the cluster.     
         - Usually sharing storage via **storage-area network (SAN)**
         - Some have distributed lock manager (DLM) to avoid conflicting operations.
+
+
+### 1.4: Operating-System Structure
+- **Multiprogrammed Systems (Batch System)**
+
+    ![Memory layout for a multiprogramming system.](https://i.imgur.com/7qMOVQX.png)
+
+    Systems provide an environment in which the various system resources (for example, CPU, memory, and peripheral devices) are utilized effectively, 
+    but they do not provide for user interaction with the computer system.
+
+    The idea of Multiprogrammed systems:
+    1. The operating system stores several processes/jobs in memory.
+    2. Since memory is too small, some jobs are kept in the job pool, where some of the jobs resides on disk awaiting allocation in the main memory.
+    3. Some of the jobs in memory - that are being executed - needs to wait for an I/O operation, so The CPU switches to another job and execute it.
+    4. The **CPU in Multiprogrammed systems is never idle**, there are always jobs being executed.
+
+- **Multitasking (Time-sharing)**
+    - Uses **CPU scheduling and multiprogramming**.
+    - The CPU executes **multiple jobs by switching among them so frequently**.
+    - Response time **is short**.
+    - In a multi-task system, There's a direct interaction between the user and the system by giving instruction through I/O devices and waits for immediate results.
+    - Since the operating system awaits for user's input to execute some process, the operating system can switch to another process whenever the user give an input.
+    - Therefore, the operating system must ensure reasonable response time. 
+    - This goal is sometimes accomplished through **swapping** whereby processes **are swapped in and out of main memory to the disk**.
+    - **Virtual Memory** enables users to run programs that are larger than actual physical memory.
+    - In this type of systems, the system must provide **file system that are based on disk management**.
+    - Also, the system must provide mechanisms for **Job Synchronization, Communication and Deadlock Manager**.
+    
+### 1.5: Operating-System Operations
