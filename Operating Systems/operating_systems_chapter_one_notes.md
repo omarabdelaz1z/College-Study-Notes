@@ -1,15 +1,18 @@
-# Chapter One: Introduction 
+# Book Name: Operating Systems Concepts
 
-# Table of Contents
-[1.1: What Operating Systems Do?](#11-what-operating-systems-do)
-
-[1.2: Computer-System Organization](#12-computer-system-organization)
-
-[1.3: Computer-System Architecture](#13-computer-system-architecture)
-
-[1.4: Computer-System Structure](#14-computer-system-structure)
-
-[1.5: Computer-System Operations](#14-computer-system-operations)
+- [Chapter 1 Introduction](#1-chapter-1-introduction)
+    - [1.1: What Operating Systems Do](#11-what-operating-systems-do)
+    - [1.2: Computer-System Organization](#12-computer-system-organization)
+    - [1.3: Computer-System Architecture](#13-computer-system-architecture)
+    - [1.4: Computer-System Structure](#14-computer-system-structure)
+    - [1.5: Computer-System Operations](#15-computer-system-operations)
+    - [1.6: Process Management](#16-process-management)
+    - [1.7: Memory Management](#17-memory-management)
+    - [1.8: Storage Management](#18-storage-management)
+    - [1.9: Protection and Security](#19-protection-and-security)
+    - [1.10: Kernel Data Structures](#20-kernel-data-structures)
+    - [1.11: Computing Environments](#21-computing-environments)
+    - [1.12: Open-Source Operating Systems](#22-open-source-operating-systems)
 
 ### 1.1: What Operating Systems Do?
 - A computer system is divided into: **Hardware**, **Operating System**, **Application Programs** and **Users**.
@@ -47,14 +50,13 @@ A modern computer system consists of one or more CPUs and device controllers con
   - ISR is a software routine that hardware invokes in response to an interrupt (represented as an I/O Activity).
   
   - Interrupts are used to:
-    - Coordinate I/O activities and prevent the CPU from being tied up during data transfer process.
-      The CPU needs to know if the I/O is ready before it can proceed. Without the interrupt capability, 
-      the CPU needs to check the status of the I/O devicecontinuously.
+        1. Coordinate I/O activities: prevent the CPU from being tied up during data transfer process.
+           the CPU needs to know if the I/O is ready before it can proceed. Without the interrupt capability, 
+           the CPU needs to check the status of the I/O devicecontinuously.
 
-    - Perform time-critical applications.
-      Many emergent events require the CPU to take action immediately.
-      The interrupt mechanism provides a way to force the CPU to divert from
-      normal program execution and take immediate actions.
+        2. Perform time-critical applications Many emergent events require the CPU to take action immediately.
+          The interrupt mechanism provides a way to force the CPU to divert from
+          normal program execution and take immediate actions.
 
   - Interrupt vector is a table of pointers/ addresses of ISR for the interrupting device. The use of pointers is to provide the necessary speed.
   - The interrupt architecture must also save the address of the interrupted instruction.
