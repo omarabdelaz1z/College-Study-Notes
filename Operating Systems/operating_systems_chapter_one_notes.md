@@ -214,6 +214,20 @@ Communcation through I/O devices
 ### 1.5: Operating-System Operations
 ### 1.5: Operating-System Operations
 ### 1.6: Process Management
+
+- Any program/task/job/time-shared program in execution phase (in active state) is called a process. 
+- A process needs to allocate resources - either when created or during runtime - to accomplish its task.
+- The process can be a system code or a user code.
+- All these processes can potentially execute concurrently -by multiplexing on a single CPU.
+- When the process terminates, the operating system reclaim any reusable resources.
+
+- The operating system is responsible to manage processes:
+    1. Scheduling processes and threads on the CPUs.
+    2. Creating and deleting both user and system processes.
+    3. Suspending and resuming processes.
+    4. Providing mechanisms for process synchronization.
+    5. Providing mechanisms for process communication.
+    
 ### 1.7: Memory Management
 ### 1.8: Storage Management
 ### 1.9: Protection and Security
