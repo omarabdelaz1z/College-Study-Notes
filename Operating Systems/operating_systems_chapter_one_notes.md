@@ -229,6 +229,15 @@ Communcation through I/O devices
     5. Providing mechanisms for process communication.
     
 ### 1.7: Memory Management
+- Main memory is the a repository of quickly accessible data shared by the CPU and I/O devices.
+- According to Von Neumann architecture, The CPU reads instructions from main memory during the instruction-fetch cycle and both reads and writes data from main memory during the data-fetch cycle.
+- To run a program, it must be mapped to absolute addresses and loaded into memory as a process.
+- The operating system must apply a memory management scheme suitable to the hardware design. The reason for that, a memory management scheme reflects some algorithms, these algorithms support from the hardware.
+
+- The operating system is responsible to:
+    1. Keeping track of which parts of memory are currently being used and who is using them.
+    2. Deciding which processes (or parts of processes) and data to move into and out of memory.
+    3. Allocating and deallocating memory space as needed.
 ### 1.8: Storage Management
 ### 1.9: Protection and Security
 ### 1.10: Kernel Data Structures
