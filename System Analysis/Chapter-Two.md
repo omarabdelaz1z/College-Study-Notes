@@ -2,9 +2,9 @@
 
 #### <u>Introduction</u>
 
-**Technology Architecture**: *a set of computing hardware, network hardware and topology and system software - AKA equipment - employed by an organization*.
+​	**Technology Architecture**: *a set of computing hardware, network hardware and topology and system software employed by an organization*.
 
-**Application Architecture**: *a set of information systems the organization needs to support its strategic plan.*
+​	**Application Architecture**: *a set of information systems the organization needs to support its strategic plan.*
 
 #### <u>System Analysis Activities</u> 
 
@@ -14,38 +14,42 @@
 
 - A system analyst needs to complete some activities to help the organization to accomplish their desired requirements.
 
-- Types of Analysis Activities:
-1. ***Gather Detailed Information.***
-  
-2. ***Define Requirements.***
-  
-3. ***Prioritize Requirements.***
-  
-4. ***Develop UI dialogs.***
-  
-5. ***Evaluate Requirements with users.***
+- <u>Types of Analysis Activities:</u>
 
+  1. ***Gather Detailed Information.***
+
+  2. ***Define Requirements.***
+
+  3. ***Prioritize Requirements.***
+
+  4. ***Develop UI dialogs.***
+
+  5. ***Evaluate Requirements with users.***
+
+     
 
 1. ***Gather Detailed Information***
 
- Analysts usually do:
+    Analysts usually do:
 
-1. ***Ask everyone who will use the new system or used similar systems -old ones-*.**
-2. ***Obtain additional information about other companies which have the same business needs***
-3. ***Identify and understand activities of current and future users who will use the system and their future locations both inside and outside the organization*.** 
+   1. ***Ask everyone who will use the new system or used similar systems -old ones-*.**
+   2. ***Obtain additional information about other companies which have the same business needs***
+   3. ***Identify and understand activities of current and future users who will use the system and their future locations both inside and outside the organization*.** 
 
 
 
-***Note: The analyst must become an expert in the business area the system will support.*** 
+​		**Note**: *The analyst must become an expert in the business area the system will support.*
 
 2. ***Define Requirements***
 
 - Analysts use information gathered to define the new system requirements.
 
 - The Analyst usually do:
-   1. ***Create models to record requirements.***
-   2. ***Review models created with users.***
-   3. ***Refine and expand the models - after the review - to reflect new or updated information***.
+  1. ***Create models to record requirements.***
+  2. ***Review models created with users.***
+  3. ***Refine and expand the models - after the review - to reflect new or updated information***.
+     
+     
 
 <u>Types of Requirements:</u>
 
@@ -72,7 +76,6 @@
    - Interaction diagrams, Written Dialogs, Storyboards and UI Prototypes are types of user interface models.
 
    - Any developed prototype can be expanded in later iterations to become a fully functioning part of the system.
-     
 
 4. ***Evaluate Requirements with Users***
 
@@ -106,12 +109,10 @@
   - Performance: Workload such as throughput, response time.
 
   - Security: How a system protects data during storage and transmission.
-    
 
 - **FURPS+**: *is an extension of FURPS that adds additional categories, including design constraints as well as implementation, system interface, physical, and supportability requirements—all these additional categories summarized by the plus sign.*
 
   - **Extensions such as**: **Design constraints, Interface requirements, Physical requirements and Supportability requirements.**
-  
 
 #### <u>Stakeholders</u>
 
@@ -131,12 +132,12 @@
     - **Executive Stakeholders**: *persons who don’t interact directly with the system but who either use information produced by the system or have a significant financial or other interest in its operation and success.*
 
       - include an organization’s senior managers and board of directors, regulatory agencies, and taxing authorities.
-  
-    
+
+
     - **Client**: *a person or group that provides the funding for the system development project*.
-    
+
     ![Stakeholders of a comprehensive accounting system for a publicly traded company](https://i.imgur.com/LgHI8oJ.png)
-    
+
     
 
 #### <u>**Information-Gathering Techniques**</u>
@@ -150,7 +151,6 @@
    - An **effective way** to understand business functions/rules.
 
    - In a successful/effective interview, the analyst do **a checklist to summarize the major points to be covered** to facilitate the interview process.
-     
 
    - <u>Types of Questions Themes:</u>
 
@@ -177,17 +177,14 @@
        **Goal**: *Confirm specific details of a business process.*
 
    - Note: Since **a new system could inherit from** many or all the requirements **from an existing system**, Therefore, An analyst must balance **the review of current business functions with discovery of new system requirements**.
-     
 
    - For more reading, read p.52 of conducting the interview and following up the interview.
-     
 
 2. *Distributing and collecting questionnaires.*
 
    - Questionnaires help/enable the analyst to define requirements from a large number of stakeholders.
    - The questionnaire could have any type of questions discussed above.
    - Stakeholders frequently don't return questionnaires that contain many open-ended questions. This type of questions is preferable in the interview not in a questionnaire.
-     
 
 3. *Reviewing inputs, outputs, and documentation.*
 
@@ -213,11 +210,11 @@
 
    - User feedback from initial and later testing is a valuable source of requirements information.
    - By interaction, users can give concrete suggestions for improvement and identify missing or poorly implemented requirements.
-     
 
 #### <u>Models and Modeling</u>
 
 - **Model**: *representation or abstraction of some aspect of a system.*
+
 - Models may vary based on the project, some models won't need to show every aspect/detail of a system and some projects do need more models.
 
 - Modeling is an important part of systems analysis and design.
@@ -225,13 +222,12 @@
 - Analysts use models to describe system requirements and communicate with them with users and designers.
 
 - If the user spots omissions, they are incorporated into the model before it becomes the basis for subsequent design and implementation activities.
-  
 
 - <u>Types of Models</u>: 
 
   - **Textual Models**: *text-based system models such as memos, reports, narratives, event lists and use case descriptions.*
     - Used when system requirements are detailed and difficult to represent in other ways.
-      
+
   - **Graphical Models**: *system models that use pictures and other graphical elements to create a diagram.*
     - Used to demonstrate system entities - in an abstract way - with their complex relationships such as  external agents, processes,
       data, objects, messages, and connections.
@@ -239,11 +235,24 @@
   - **Mathematical Models**: *system models that describes technical aspects of a system using mathematical expressions*.
     - Used to represent **functional requirements** for scientific and engineering applications and occasionally used to describe business system requirements in areas such as accounting and inventory control.
     - Used to describe **nonfunctional requirements** and operational parameters such as **network  throughput** or **database query response time**.
-      
+
   - **Unified Modelling Language (UML)**: *a standard set of information system model constructs and notations defined by the Object Management  Group.*
     - Examples: **<u>Use Case Diagram</u>, <u>Class Diagram</u>, <u>Activity Diagram</u>, <u>Sequence Diagram</u>, <u>Communication Diagram</u> and <u>State Machine Diagram</u>**
 
   
 
 #### <u>Documenting Workflows with Activity Diagrams</u>
+
+- After the process of gather information about business processes, An analyst need to document the results by using any of the following ways:
+
+  - **Workflow**: *a sequence of work steps that completely handle one business transaction or customer request*. 
+    - These workflows may include participants from different parts of the organization.
+  - **Activity Diagram:** *UML diagram describes the system activities and the actors participate in this activity.*
+    - Activity diagram consists of **Synchronization Bar **and **Swimlane**. 
+
+- See the examples in the book p.60 :p.63.
+
+  
+
+  ### End of Chapter.
 
