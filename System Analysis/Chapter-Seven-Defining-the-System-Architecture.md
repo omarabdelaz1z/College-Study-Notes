@@ -119,3 +119,39 @@
     
 
 ### Interoperability 
+
+***Interoperability:*** *The ability of a component or system to interact with other components or systems.*
+
+- System designers must do several things, including the following:
+
+  1. Understand and describe the current environment in which the system will operate.
+
+  2. Reuse existing software components and services that can provide needed functions for the new system.
+  3. Build components that can’t be purchased as software modules or used as a service.
+  4. Structure and assemble the components in a way that is feasible to build, test, deploy, and operate over the long term.
+
+### Architectural Diagrams
+
+- Commonly used to visually describe an information system’s environment, components, and deployment.
+
+- Types of Architectural Diagrams
+
+  - ***Location Diagrams***: *Done early in design phase and shows the **geographic placement** of various system components including hardware, buildings and users.*
+
+  -  Network Diagrams: *shows how locations and hardware components are **interconnected with network devices and wiring.*** *used to describe network connections within a server room*
+
+    ![Network Diagram](https://i.imgur.com/DQiyVcT.png)
+
+  - ***Deployment Diagrams***: *A deployment diagram describes how software components are distributed*
+    *across hardware and system software components.*
+
+    ![Deployment](https://i.imgur.com/eYF3suE.png)
+
+### Describing the Environment
+
+- P.203
+
+### Designing Application Components
+
+- P.208
+
