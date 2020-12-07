@@ -14,6 +14,11 @@
     - [1.11: Computing Environments](#21-computing-environments)
     - [1.12: Open-Source Operating Systems](#22-open-source-operating-systems)
 
+### Modified Points:
+
+- The dual mode of operation provides us with the means for protecting the operating system from errant users—and errant users from one another. We accomplish this protection by designating some of the machine instructions that may cause harm as privileged instructions.
+
+
 ### 1.1: What Operating Systems Do?
 - A computer system is divided into: **Hardware**, **Operating System**, **Application Programs** and **Users**.
 - Hardware **provides basic resources** for the system.
