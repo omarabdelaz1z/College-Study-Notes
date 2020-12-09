@@ -158,11 +158,11 @@ $$
 
 ### Binary Search
 
-![Recurrence Relation for Binary Search](screenshots/binary_search_rr.png)
+![binary_search_rr](screenshots/binary_search_rr.PNG)
 
 ### Merge Sort
 
-![Recurrence Relation for Merge Sort](screenshots/mergesort_rr.png)
+![mergesort_rr](screenshots/mergesort_rr.PNG)
 
 ### Powering a Number
 
