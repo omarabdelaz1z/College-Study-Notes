@@ -82,9 +82,9 @@ $$
 
 ## Some Arithmetic Rules
 
-![Summation From One to N](sum_from_1_to_n.png)
+![Summation From One to N](screenshots\sum_from_1_to_n.png)
 
-![Series](series.png)
+![Series](screenshots\series.png)
 
 ## Recurrences
 
@@ -155,6 +155,70 @@ $$
 
 #### Examples
 
-![image-20201209024459593](master-examples-1.png)
+![image-20201209024459593](screenshots\master-examples-1.png)
 
-![image-20201209031319096](master-examples-2.png)
+![image-20201209031319096](screenshots\master-examples-2.png)
+
+## Common Recurrence Relations
+
+### Binary Search
+
+![Recurrence Relation for Binary Search](screenshots\binary_search_rr.png)
+
+### Merge Sort
+
+![Recurrence Relation for Merge Sort](screenshots\mergesort_rr.png)
+
+### Powering a Number
+
+![Powering a Number](powering-number.PNG)
+
+	##### Formula
+
+$$
+a^n = a^{n/2} * a^{n/2}\\
+a^n = a^{n-1/2} * a^{n-1/2} * a
+$$
+
+### Fibonacci Numbers
+
+#### Naïve Solution
+
+$$
+F(n) = F(n-1) +F(n-2)
+$$
+
+F(n) = n for n = 0 or n = 1
+
+Exponential Time: Golden ratio power n
+$$
+Ω((1+sqrt(5))/2)^n)
+$$
+
+#### Recursive Squaring
+
+![image-20201209142351899](screenshots\recursive_squaring_theorem.png)
+
+Assume n = 2.
+
+![image-20201209142647295](screenshots\proving.png)
+
+### Matrix Multiplication
+
+#### Naïve Solution
+
+![image-20201209143326135](screenshots\matrix-multiplication.png)
+
+#### DC Algorithm
+
+![image-20201209144118308](screenshots\mp_dc.png)
+
+T(n) = 8T(n/2) + Θ(n^2)
+
+T(n) = Θ(n^3)
+
+#### Strassen Algorithm
+
+This algorithm reduces the number of multiplication from 8 to 7 (:d)
+
+![image-20201209144311058](screenshots\stressen.png)
