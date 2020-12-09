@@ -89,3 +89,150 @@ HCI is a broad field with many related fields of study such as
 
 <img src="chapter-11-part-1-15-728.jpg" style="zoom: 67%;" />
 
+### Fundamental Principles of User-Interface Design
+
+#### Human-Interface Objects (HIOs)
+
+##### Definition
+
+- Icons and other objects on a screen that can be manipulated by the user and cause action to occur.
+
+##### Examples
+
+- Desktop Icons
+
+- The ribbons of icons at Microsoft Office suite
+
+##### Principles
+
+- ***Affordance***: The appearance of a specific control suggests its function—that is, the purpose
+  for which the control is used. 
+
+  Cut (scissors symbol) and search is a magnifier tool etc..!
+
+  ![](1__qtkUosdSBosCge0NzfPnw.jpg)
+
+  
+
+- ***Tool Tip***: Brief instructions that pop up when the mouse hovers over a control
+
+- ***Visibility***: When a control is visible so that users know it is available
+
+  ![image-20201210003745633](image-20201210003745633.png)
+
+- ***Feedback***: Some visual or audio response by the system in response to a user action
+
+  <img src="C:\Users\omara\Documents\GitHub\FCAI_Y3\System Analysis\image-20201210003657396.png" alt="image-20201210003704619" style="zoom: 67%;" />
+
+- ***Radio Buttons and Check Boxes***
+
+  A group of radio buttons is a control that allows one item to be selected out of the group. A group of check boxes is a control that allows none or many items to be selected. As a radio button is selected, not only does it change its color, but the image also immediately changes.
+
+##### Notes
+
+- Visibility and affordance are relatively easy to achieve when the design target
+  is a commonly used platform, such as an iPad
+- Feedback provides the user with a sense of confirmation and the feeling that
+  a system is responsive and functioning correctly.
+
+#### Consistency
+
+The effectiveness of the user experience is highly dependent on consistency.
+
+Users not only expect consistency across the various screens of an application, but now also anticipate consistency across applications.
+
+##### Types of Consistency
+
+- Consistency Within and **Across Platforms**
+
+  - Within a one platform is Achievable.
+  - Within a Across platform is hardly achievable and challenging.
+  - Therefore **Web-based applications bring consistency.**
+
+- Consistency Within **a Suite of Applications**
+
+  - Examples of Suite Applications: Adobe, Microsoft Office
+
+  - Microsoft Office has achieved consistency across their applications.
+
+    <img src="image-20201210005252093.png" alt="image-20201210005252093" style="zoom: 80%;" />
+
+- Consistency Within **an Application**
+
+  - Occur when many developers use different font types, sizes and colors that lead to inconsistency and unprofessional look of the UI.
+
+- Consistency **Versus** Continuity
+
+  - **Continuity** maintaining a certain level of consistency over time, across multiple releases
+
+  - This concept refers to changes occurring in new releases of an application.
+    Almost every application will have upgrade after upgrade with new versions
+
+    <img src="image-20201210005334439.png" alt="image-20201210005334439" style="zoom: 50%;" />
+
+#### Discoverability
+
+Trying to provide an HIO control for every feature would make the user interface too cluttered and complex.  It is important that developers consider **the discoverability** aspect of user interface
+design.
+
+##### Definition
+
+- A feature of the user interface that provides clues to help the users uncover hidden features
+
+##### Active Discovery
+- A user-interface feature to lead users to discover hidden features
+
+###### Examples 
+
+- One approach is to have a pop-up window appear at application initiation that provides hints and additional features.
+
+- Another approach is to have a small text box appear as the user hovers over different locations of the
+  screen. 
+
+  This technique is best implemented with a slight delay so that the user is not continually being distracted by the opening and closing of myriad text boxes.
+
+##### Visual Diagrams
+
+<img src="image-20201210010759952.png" alt="image-20201210010759952" style="zoom: 80%;" />
+
+#### Closure
+
+##### Provide Closure on Dialogues
+
+- Based on the dialogue metaphor and HIOs principles such as visibility and feedback.
+- In most cases, especially for organizational procedures, a use case requires several steps to complete.
+-  Sometimes this requires multiple screens; sometimes it can be done with a single screen. In either event, the user interface should have a clearly defined beginning and ending.
+- When a use case requires several steps, it is important that the user know that all the steps are completed.
+- One technique to implement this process is to have a Continue button and a Finish button that indicate the end of the process. Sometimes a progress bar is also included and a final message to indicate that the dialogue has successfully finished. Refreshing the final screen to return to a beginning point of the next dialogue also indicates closure.
+
+##### Protect Users’ Work
+
+- It is common with current applications to always ask the user if she wants to save her
+  work before closing the application
+- Another common feature is to inform the user when she tries to save a newer version of a file on top of an older one.
+
+##### Make Actions Reversible (Undo)
+
+- Users need to feel that they can explore options and take actions that can be canceled or reversed without difficulty.
+- Both the application and the user interface must support this reverse function.
+
+#### Readability and Navigation
+
+- The Age of the target audience. [Kids, Adults]
+-  The devices that will be used. [Mobile Devices and Desktops]
+- Navigation Should Be Clear.
+- Always Allow a Way Out
+  - **Breadcrumbs (navigation)** is the technique of displaying the sequence of pages traversed to the current page. 
+  - For example, RMOHome> Women’s clothes> WinterCoats indicates that the user has traversed three levels down to the winter coats page.
+
+#### Usability and Efficiency
+
+- Provide Shortcut Keys to Support Experienced Users
+- Design Error Messages That Provide Solution Options
+- Design for Simplicity
+
+### Transitioning from Analysis to User-Interface Design
+
+### User-Interface Design
+
+### Designing Reports, Statements, and Turnaround Documents
