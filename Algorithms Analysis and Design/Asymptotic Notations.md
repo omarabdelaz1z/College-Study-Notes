@@ -166,7 +166,7 @@ $$
 
 ### Powering a Number
 
-![Powering a Number](screenshots/powering-number.PNG)
+![powering-number](screenshots/powering-number.PNG)
 
 	##### Formula
 
