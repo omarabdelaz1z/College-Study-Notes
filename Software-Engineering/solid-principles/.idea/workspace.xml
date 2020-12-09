@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db73a42b-cd9c-411e-8dc7-b83dac7a81c1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kK1AhpDrOCfaGTb2krM10rV0wz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="OCPSolution" />
+      <recent name="SingleResponsibilityPrincipleSolution" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omara\IdeaProjects\solid-principles\src" />
+      <recent name="C:\Users\omara\IdeaProjects\solid-principles\LiskovSubstitutionPrinciple" />
+      <recent name="C:\Users\omara\IdeaProjects\solid-principles\OpenClosedPrinciple" />
+      <recent name="C:\Users\omara\IdeaProjects\solid-principles\SingleResponsibilityPrinciple" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LSP.Main" />
+      <module name="solid-principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LSP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LSPSolutionTwo.Main" />
+      <module name="solid-principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LSPSolutionTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Penguin (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LSPSolutionTwo.Penguin" />
+      <module name="solid-principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LSPSolutionTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhotoViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPSolution.PhotoViewer" />
+      <module name="solid-principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OCPSolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Swan (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LSPSolutionTwo.Swan" />
+      <module name="solid-principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LSPSolutionTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Swan (1)" />
+      <item itemvalue="Application.Penguin (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.PhotoViewer" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.PhotoViewer" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Penguin (1)" />
+        <item itemvalue="Application.Swan (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db73a42b-cd9c-411e-8dc7-b83dac7a81c1" name="Default Changelist" comment="" />
+      <created>1605434326981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605434326981</updated>
+      <workItem from="1605434328219" duration="10569000" />
+      <workItem from="1605446603448" duration="354000" />
+      <workItem from="1605475025755" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2083" y="158" key="#Project_Structure" timestamp="1605441299456">
+      <screen x="1920" y="158" width="1366" height="728" />
+    </state>
+    <state x="2083" y="158" key="#Project_Structure/0.0.1920.1040/1920.158.1366.728@1920.158.1366.728" timestamp="1605441299456" />
+    <state x="2408" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1605440770514">
+      <screen x="1920" y="158" width="1366" height="728" />
+    </state>
+    <state x="2408" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.158.1366.728@1920.158.1366.728" timestamp="1605440770513" />
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1605445283766">
+      <screen x="1920" y="158" width="1366" height="728" />
+    </state>
+    <state width="1877" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.158.1366.728@0.0.1920.1040" timestamp="1605443287595" />
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.158.1366.728@1920.158.1366.728" timestamp="1605445283766" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1605445283766">
+      <screen x="1920" y="158" width="1366" height="728" />
+    </state>
+    <state width="1877" height="199" key="GridCell.Tab.0.center/0.0.1920.1040/1920.158.1366.728@0.0.1920.1040" timestamp="1605443287594" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1920.1040/1920.158.1366.728@1920.158.1366.728" timestamp="1605445283766" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1605445283766">
+      <screen x="1920" y="158" width="1366" height="728" />
+    </state>
+    <state width="1877" height="199" key="GridCell.Tab.0.left/0.0.1920.1040/1920.158.1366.728@0.0.1920.1040" timestamp="1605443287594" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1920.1040/1920.158.1366.728@1920.158.1366.728" timestamp="1605445283766" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1605445283766">
+      <screen x="1920" y="158" width="1366" height="728" />
+    </state>
+    <state width="1877" height="199" key="GridCell.Tab.0.right/0.0.1920.1040/1920.158.1366.728@0.0.1920.1040" timestamp="1605443287595" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1920.1040/1920.158.1366.728@1920.158.1366.728" timestamp="1605445283766" />
+    <state x="2183" y="265" key="IDE.errors.dialog" timestamp="1605441287781">
+      <screen x="1920" y="158" width="1366" height="728" />
+    </state>
+    <state x="2183" y="265" key="IDE.errors.dialog/0.0.1920.1040/1920.158.1366.728@1920.158.1366.728" timestamp="1605441287781" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1605441553756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.158.1366.728@0.0.1920.1040" timestamp="1605441553756" />
+    <state x="1945" y="158" key="new project wizard" timestamp="1605445281007">
+      <screen x="1920" y="158" width="1366" height="728" />
+    </state>
+    <state x="1945" y="158" key="new project wizard/0.0.1920.1040/1920.158.1366.728@1920.158.1366.728" timestamp="1605445281007" />
+    <state x="2303" y="279" key="refactoring.ChangeSignatureDialog" timestamp="1605436767004">
+      <screen x="1920" y="158" width="1366" height="728" />
+    </state>
+    <state x="2303" y="279" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.158.1366.728@1920.158.1366.728" timestamp="1605436767004" />
+    <state x="1099" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605434411593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1099" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.158.1366.728@0.0.1920.1040" timestamp="1605434411593" />
+  </component>
+</project>
