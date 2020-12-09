@@ -39,13 +39,14 @@ Note: c, c1, c2 are all positive constants.
       f(n) = O(f(n)) 
       f(n) = Ω(f(n)) 
       f(n) = Θ(f(n))
+  ```
 ```
   
 - Symmetry
 
-  ```
+```
   f(n) = Θ(g(n)) if and only if g(n) = Θ(f(n))
-  
+
   example:
       f(n) = n^2 
       g(n) = n^2
@@ -71,10 +72,8 @@ Note: c, c1, c2 are all positive constants.
 
   ```
   f(n) = O(g(n)) if and only if g(n) = Ω(f(n))
-  
-  - If f(n) = n and g(n) = n2 then n is O(n2) and n2 is Ω(n)
-  ```
 
+  - If f(n) = n and g(n) = n2 then n is O(n2) and n2 is Ω(n)
 ## Logarithmic Rules
 
 $$
@@ -90,9 +89,9 @@ $$
 
 ## Some Arithmetic Rules
 
-![Summation From One to N](C:\Users\omara\Documents\Typora\2e9ef5f601b25cef7278a83960a9f8f5.png)
+![Summation From One to N](sum_from_1_to_n.png)
 
-![Series](C:\Users\omara\Documents\Typora\series.png)
+![Series](series.png)
 
 ## Recurrences
 
@@ -163,7 +162,6 @@ $$
 
 #### Examples
 
-![image-20201209024459593](C:\Users\omara\Documents\Typora\image-20201209024459593.png)
+![image-20201209024459593](master-examples-1.png)
 
-![image-20201209031319096](C:\Users\omara\Documents\Typora\image-20201209031319096.png)
-
+![image-20201209031319096](master-examples-2.png)
