@@ -1,32 +1,27 @@
 ## Asymptotic Notations
 
-$$
-1 < log(n) < sqrt(n) < n < n*logn < n^2 < n^3 < 2^n < 3^n < n! < n^n
-$$
+<img src="https://render.githubusercontent.com/render/math?math=1 < log(n) < sqrt(n) < n < n*logn < n^2 < n^3 < 2^n < 3^n < n! < n^n">
+
 
 ### Upper Bound - Big O
 - Notation: **F(n) = O(G(n))** 
 
 - A function F(n) is upper-bounded by G(n) such that 
-  $$
-  F(n) <= c * G(n)
-  $$
+
+<img src="https://render.githubusercontent.com/render/math?math=F(n) <= c * G(n)">
 
 - Note: write the G(n) that is closest to F(n)
 ### Lower Bound - Big Omega
 - Notation: **F(n)= Ω(G(n))**
 
 - A function F(n) is lower-bounded by G(n) such that
-  $$
-  F(n) >= c * G(n)
-  $$
+<img src="https://render.githubusercontent.com/render/math?math=F(n) >= c * G(n)">
+
 ### Average Bound - Theta
 - Notation: **F(n) = Θ(G(n))**
 
 - A function F(n) is bounded by G(n) such that it can be sandwiched between
-  $$
-  0 ≤ c1g(n) ≤ f(n) ≤ c2g(n)
-  $$
+<img src="https://render.githubusercontent.com/render/math?math=0 ≤ c1g(n) ≤ f(n) ≤ c2g(n)">
 
 Note: c, c1, c2 are all positive constants.
 
@@ -69,6 +64,8 @@ if f(n) is given then:
   - If f(n) = n and g(n) = n2 then n is O(n2) and n2 is Ω(n)
 ## Logarithmic Rules
 
+<img src="https://render.githubusercontent.com/render/math?math=log(a*b) = log(a) + log(b)\nlog(a/b) = log(a)-log(b)\\log(a^b) = b * log(a)\\a^{\log _c\left(b\right)} = b^{\log _c\left(a\right)}\\a^b = n\\b = \log _a\left(n\right)\\">
+
 $$
 log(a*b) = log(a) + log(b)
 \\
@@ -82,9 +79,9 @@ $$
 
 ## Some Arithmetic Rules
 
-![Summation From One to N](screenshots\sum_from_1_to_n.png)
+![sum_from_1_to_n](screenshots/sum_from_1_to_n.png)
 
-![Series](screenshots\series.png)
+![Series](screenshots/series.png)
 
 ## Recurrences
 
@@ -116,9 +113,7 @@ $$
 
 - The master method applies to recurrences of the form
 
-$$
-T(n) = a * T(n/b) + f(n)
-$$
+<img src="https://render.githubusercontent.com/render/math?math=T(n) = a * T(n/b) + f(n)">
 
 ​	where a >=1, b > 1 and f(n) > 0
 
@@ -155,23 +150,23 @@ $$
 
 #### Examples
 
-![image-20201209024459593](screenshots\master-examples-1.png)
+![image-20201209024459593](screenshots/master-examples-1.png)
 
-![image-20201209031319096](screenshots\master-examples-2.png)
+![image-20201209031319096](screenshots/master-examples-2.png)
 
 ## Common Recurrence Relations
 
 ### Binary Search
 
-![Recurrence Relation for Binary Search](screenshots\binary_search_rr.png)
+![binary_search_rr](screenshots/binary_search_rr.PNG)
 
 ### Merge Sort
 
-![Recurrence Relation for Merge Sort](screenshots\mergesort_rr.png)
+![mergesort_rr](screenshots/mergesort_rr.PNG)
 
 ### Powering a Number
 
-![Powering a Number](powering-number.PNG)
+![powering-number](screenshots/powering-number.PNG)
 
 	##### Formula
 
@@ -184,34 +179,33 @@ $$
 
 #### Naïve Solution
 
-$$
-F(n) = F(n-1) +F(n-2)
-$$
+<img src="https://render.githubusercontent.com/render/math?math=F(n) = F(n-1) +F(n-2)">
 
 F(n) = n for n = 0 or n = 1
 
 Exponential Time: Golden ratio power n
+<img src="https://render.githubusercontent.com/render/math?math=Ω((1+sqrt(5))/2)^n)">
 $$
 Ω((1+sqrt(5))/2)^n)
 $$
 
 #### Recursive Squaring
 
-![image-20201209142351899](screenshots\recursive_squaring_theorem.png)
+![image-20201209142351899](screenshots/recursive_squaring_theorem.png)
 
 Assume n = 2.
 
-![image-20201209142647295](screenshots\proving.png)
+![image-20201209142647295](screenshots/proving.png)
 
 ### Matrix Multiplication
 
 #### Naïve Solution
 
-![image-20201209143326135](screenshots\matrix-multiplication.png)
+![image-20201209143326135](screenshots/matrix-multiplication.png)
 
 #### DC Algorithm
 
-![image-20201209144118308](screenshots\mp_dc.png)
+![image-20201209144118308](screenshots/mp_dc.png)
 
 T(n) = 8T(n/2) + Θ(n^2)
 
@@ -221,4 +215,4 @@ T(n) = Θ(n^3)
 
 This algorithm reduces the number of multiplication from 8 to 7 (:d)
 
-![image-20201209144311058](screenshots\stressen.png)
+![image-20201209144311058](screenshots/stressen.png)
