@@ -32,30 +32,26 @@ Note: c, c1, c2 are all positive constants.
 
 ## Asymptotic Notations Properties
 
-- Reflexivity 
-
-  ```
-  if f(n) is given then:
-      f(n) = O(f(n)) 
-      f(n) = Ω(f(n)) 
-      f(n) = Θ(f(n))
-  ```
-```
-  
-- Symmetry
+#### Reflexivity 
 
 ```
+if f(n) is given then:
+    f(n) = O(f(n)) 
+    f(n) = Ω(f(n)) 
+    f(n) = Θ(f(n))
+```
+
+#### Symmetry
+
   f(n) = Θ(g(n)) if and only if g(n) = Θ(f(n))
 
   example:
       f(n) = n^2 
       g(n) = n^2
       then f(n) = Θ(n2) and g(n) = Θ(n2)
-  ```
 
-- Transitivity
+#### Transitivity
 
-  ```
   f(n) = O(g(n)) and g(n) = O(h(n)) ⇒ f(n) = O(h(n))
   example:
       f(n) = n 
@@ -66,11 +62,8 @@ Note: c, c1, c2 are all positive constants.
       n^2 is O(n^3)
   then 
       n is O(n^3)
-  ```
+#### Transpose Symmetry
 
-- Transpose Symmetry
-
-  ```
   f(n) = O(g(n)) if and only if g(n) = Ω(f(n))
 
   - If f(n) = n and g(n) = n2 then n is O(n2) and n2 is Ω(n)
