@@ -233,6 +233,18 @@ design.
 
 ### Transitioning from Analysis to User-Interface Design
 
+
+
 ### User-Interface Design
 
 ### Designing Reports, Statements, and Turnaround Documents
+
+##### Intro
+
+##### Report Types
+
+- **Detailed reports**: reports that contain specific information on business transactions
+- **Summary reports**: reports that summarize detail or recap periodic activity
+- **Exception reports**: reports that provide details or summary information about transactions or operating results that fall outside a predefined normal range of values
+- **Executive reports**: reports used by high-level managers to assess overall organizational health and performance
+
