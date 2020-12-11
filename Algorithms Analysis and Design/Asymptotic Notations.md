@@ -64,14 +64,12 @@ if f(n) is given then:
   - If f(n) = n and g(n) = n2 then n is O(n2) and n2 is Ω(n)
 ## Logarithmic Rules
 
-<img src="https://render.githubusercontent.com/render/math?math=log(a*b) = log(a) + log(b)\nlog(a/b) = log(a)-log(b)\\log(a^b) = b * log(a)\\a^{\log _c\left(b\right)} = b^{\log _c\left(a\right)}\\a^b = n\\b = \log _a\left(n\right)\\">
-
 <img src="https://render.githubusercontent.com/render/math?math=log(a*b) = log(a) + log(b)">
 <img src="https://render.githubusercontent.com/render/math?math=log(a/b) = log(a)-log(b)">
 <img src="https://render.githubusercontent.com/render/math?math=log(a^b) = b * log(a)">
 <img src="https://render.githubusercontent.com/render/math?math=a^{\log _c\left(b\right)} = b^{\log _c\left(a\right)">
 <img src="https://render.githubusercontent.com/render/math?math=a^b = n">
-<img src="https://render.githubusercontent.com/render/math?math=∴b = \log _a\left(n\right)">
+<img src="https://render.githubusercontent.com/render/math?math=(\log _a\left(n\right) = b">
 
 
 ## Some Arithmetic Rules
