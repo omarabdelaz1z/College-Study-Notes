@@ -70,7 +70,6 @@ if f(n) is given then:
 <img src="https://render.githubusercontent.com/render/math?math=log(a/b) = log(a)-log(b)">
 <img src="https://render.githubusercontent.com/render/math?math=log(a^b) = b * log(a)">
 <img src="https://render.githubusercontent.com/render/math?math=a^{\log _c\left(b\right)} = b^{\log _c\left(a\right)">
-
 <img src="https://render.githubusercontent.com/render/math?math=a^b = n">
 <img src="https://render.githubusercontent.com/render/math?math=∴b = \log _a\left(n\right)">
 
