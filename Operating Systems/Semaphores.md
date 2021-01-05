@@ -102,7 +102,7 @@ Indefinite blocking may occur if we remove processes from the list associated wi
 
 #### *Scenario*
 
-![image-20201208222331055](C:\Users\omara\AppData\Roaming\Typora\typora-user-images\image-20201208222331055.png)
+![image-20201208222331055](image-20201208222331055.png)
 
 
 
