@@ -64,18 +64,13 @@ if f(n) is given then:
   - If f(n) = n and g(n) = n2 then n is O(n2) and n2 is Ω(n)
 ## Logarithmic Rules
 
-<img src="https://render.githubusercontent.com/render/math?math=log(a*b) = log(a) + log(b)\nlog(a/b) = log(a)-log(b)\\log(a^b) = b * log(a)\\a^{\log _c\left(b\right)} = b^{\log _c\left(a\right)}\\a^b = n\\b = \log _a\left(n\right)\\">
+<img src="https://render.githubusercontent.com/render/math?math=log(a*b) = log(a) + log(b)">
+<img src="https://render.githubusercontent.com/render/math?math=log(a/b) = log(a)-log(b)">
+<img src="https://render.githubusercontent.com/render/math?math=log(a^b) = b * log(a)">
+<img src="https://render.githubusercontent.com/render/math?math=a^{\log _c\left(b\right)} = b^{\log _c\left(a\right)">
+<img src="https://render.githubusercontent.com/render/math?math=a^b = n">
+<img src="https://render.githubusercontent.com/render/math?math=(\log _a\left(n\right) = b">
 
-$$
-log(a*b) = log(a) + log(b)
-\\
-log(a/b) = log(a)-log(b)
-\\
-log(a^b) = b * log(a)
-\\
-a^{\log _c\left(b\right)} = b^{\log _c\left(a\right)}
-\\ a^b = n\\∴b = \log _a\left(n\right)
-$$
 
 ## Some Arithmetic Rules
 
@@ -119,27 +114,26 @@ $$
 
 #### Case 1
 
-$$
-∵ n^{\log _b\left(a\right)} > f(n)\\
-∴ T(n) = Θ(n^{\log _b\left(a\right)}))
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=∵ n^{\log _b\left(a\right)} > f(n)">
+
+<img src="https://render.githubusercontent.com/render/math?math=∴ T(n) = Θ(n^{\log _b\left(a\right)}))">
 
 #### Case 2
 
-$$
-∵ n^{\log _b\left(a\right)} = f(n)\\
-∴ T(n) = Θ(n^{\log _b\left(a\right)}*log(n)))
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=n^{\log _b\left(a\right)} = f(n)))">
+<img src="https://render.githubusercontent.com/render/math?math=∴ T(n) = Θ(n^{\log _b\left(a\right)}*log(n)))">
+
 
 #### Case 3
 
 Regularity condition must be met
 
 Condition: a * f(n/b) <= c * f(n) for some c < 1
-$$
-∵ n^{\log _b\left(a\right)} < f(n)\\
-∴ T(n) = Θ(f(n)\\
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=∵ n^{\log _b\left(a\right)} < f(n)">
+<img src="https://render.githubusercontent.com/render/math?math=∴ T(n) = Θ(f(n)">
 
 #### Steps
 
@@ -170,10 +164,9 @@ $$
 
 	##### Formula
 
-$$
-a^n = a^{n/2} * a^{n/2}\\
-a^n = a^{n-1/2} * a^{n-1/2} * a
-$$
+<img src="https://render.githubusercontent.com/render/math?math=a^n = a^{n/2} * a^{n/2}">
+<img src="https://render.githubusercontent.com/render/math?math=a^n = a^{n-1/2} * a^{n-1/2} * a">
+
 
 ### Fibonacci Numbers
 
@@ -185,9 +178,6 @@ F(n) = n for n = 0 or n = 1
 
 Exponential Time: Golden ratio power n
 <img src="https://render.githubusercontent.com/render/math?math=Ω((1+sqrt(5))/2)^n)">
-$$
-Ω((1+sqrt(5))/2)^n)
-$$
 
 #### Recursive Squaring
 
