@@ -17,7 +17,7 @@
 
 ### *Solution*
 
-```
+```java
 semaphore rw_mutex = 1; // common for read/write processes.
 semaphore mutex = 1; // ensure mutual exclusion when read_count is updated.
 int read_count = 0; // keeps track of how many processes are currently reading.
@@ -25,7 +25,7 @@ int read_count = 0; // keeps track of how many processes are currently reading.
 
 - The implementation of run method inside **writer** process would be:
 
-  ```
+  ```java
   do {
       wait(rw_mutex);
       
@@ -40,7 +40,7 @@ int read_count = 0; // keeps track of how many processes are currently reading.
   
 - The implementation of run method inside **reader** process would be:
 
-  ```
+  ```java
   do {
       wait(mutex);
       read count++;
@@ -71,7 +71,7 @@ int read_count = 0; // keeps track of how many processes are currently reading.
 
 ### *Solution*
 
-```
+```java
 int n;
 semaphore mutex = 1;
 semaphore empty = n;
@@ -80,7 +80,7 @@ semaphore full = 0
 
 - The implementation of run method inside **producer** process would be:
 
-  ```
+  ```java
   do {
       . . .
       /* produce an item in next produced */
@@ -97,7 +97,7 @@ semaphore full = 0
 
 - The implementation of run method inside **consumer** process would be:
 
-  ```
+  ```java
   do {
       wait(full);
       wait(mutex);
@@ -118,7 +118,7 @@ semaphore full = 0
 
 ### *Solution*
 
-```
+```java
 semaphore chopstick[5];
 
 do {
@@ -141,7 +141,7 @@ Deadlock occurs here when all philosophers pick their right chopstick and no cho
 
 To prevent deadlock...
 
-```
+```java
 semaphore chopstick[5];
 
 do {
