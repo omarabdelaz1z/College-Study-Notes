@@ -4,17 +4,18 @@
 
 - **User Story**: *A scenario describes users' goals when they use a system.*
 - User story is a ***quick less-formal way*** of identifying ***functional requirements***.
-- Agile Development Methodology ***uses user stories*** because they focus on ***simplicity, value added and user collaboration***. 
+- **Agile** Development Methodology ***uses user stories*** because they focus on ***simplicity, value added and user collaboration***. 
 - Users and stakeholders identify these ***user stories***.
 - A user story focuses on ***who, what and why*** for each function:
-  “As a <role played>, I want to <goal or desire> so that <reason or benefit>.”
+  “As a <role played>, I want to <goal> so that <reason>.”
+  
   - Example: *For example, some user stories for a bank teller might be:
      “As a **<u>teller</u>**, I want **<u>to make a deposit</u>** to quickly **<u>serve more customers</u>**.”*
 - The final part of a user story is called ***Acceptance Criteria***.
 - **Acceptance Criteria**: *functionalities that must be present in the final system for the user to be satisfied*.
   - <u>Examples</u>:
     - *Customer lookup must be by name or by account number.*
-    - It would be nice to display photo and signature of customer.*
+    - *It would be nice to display photo and signature of customer.*
 
     - *Any check hold requirements must be indicated.*
 
@@ -54,7 +55,7 @@
   ##### 2. Event decomposition technique
 
 - ***Definition:*** *What business events the system must respond to.*
-- **Event:** *An event occurs at a specific time and place, can be described, and should be remembered by the system*.
+- **Event:** *An event occurs at a specific time and place, can be described, and should be remembered by the system*
 - In this technique, An analyst directs his attention to the see the system as a ***black box***. This means that analyst don't see the underlying implementation, just ***input and output***.
 - Consider you have an event, such as working with customers all day. What does that mean? This - ***working with customers*** - mean that the system can include <u>adding new customers</u>, <u>updating customer records</u>, deleting customers, <u>following up on late-paying customers</u>, or <u>contacting former customers</u>. Therefore, the word ***decomposition*** meant to extract all uses cases from an event. All the underlined sentences are use cases.
 

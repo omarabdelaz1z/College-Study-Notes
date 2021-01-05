@@ -199,11 +199,11 @@ design.
 
 ##### Provide Closure on Dialogues
 
-- Based on the dialogue metaphor and HIOs principles such as visibility and feedback.
-- In most cases, especially for organizational procedures, a use case requires several steps to complete.
--  Sometimes this requires multiple screens; sometimes it can be done with a single screen. In either event, the user interface should have a clearly defined beginning and ending.
+- Based on the **dialogue metaphor** and **HIOs principles such as visibility and feedback.**
 - When a use case requires several steps, it is important that the user know that all the steps are completed.
-- One technique to implement this process is to have a Continue button and a Finish button that indicate the end of the process. Sometimes a progress bar is also included and a final message to indicate that the dialogue has successfully finished. Refreshing the final screen to return to a beginning point of the next dialogue also indicates closure.
+- One technique to implement this process is to have a Continue button and a Finish button that indicate the end of the process. 
+- Sometimes a progress bar is also included and a final message to indicate that the dialogue has successfully finished.
+- Refreshing the final screen to return to a beginning point of the next dialogue also indicates closure.
 
 ##### Protect Users’ Work
 
@@ -221,6 +221,8 @@ design.
 - The Age of the target audience. [Kids, Adults]
 -  The devices that will be used. [Mobile Devices and Desktops]
 - Navigation Should Be Clear.
+  - **Deep Hierarchical vertical**: simple menu with multi-level submenus.
+  - **Shallow Horizontal**: many menu items and fewer submenus.
 - Always Allow a Way Out
   - **Breadcrumbs (navigation)** is the technique of displaying the sequence of pages traversed to the current page. 
   - For example, RMOHome> Women’s clothes> WinterCoats indicates that the user has traversed three levels down to the winter coats page.
@@ -230,12 +232,43 @@ design.
 - Provide Shortcut Keys to Support Experienced Users
 - Design Error Messages That Provide Solution Options
 - Design for Simplicity
+  - Fewer mouse clicks is always productive.
+  - Fewer levels to navigate through increase speed of access
 
 ### Transitioning from Analysis to User-Interface Design
 
+##### Use Cases and the Menu Hierarchy
 
+Use case diagrams have direct impact on the representation of the menu shown in the program.
+
+- Organize uses cases to be categorized (grouped) by actor or subsystem.
+- Levels of the menu can be co
+
+##### Analysis Models and Input Forms
+
+- Using a system sequence diagram is a good starting point to identify the various screens and forms that may be needed for the user interface for a particular use case
+
+##### Dialogues and Storyboards
+
+- A System Designer must document system dialogues, they states how the user and system interact like a conversation.
+
+- the designer can go right from building a dialogue to sketching a series of screens that make the design more understandable known as **Storyboarding**
+
+  **Storyboarding** sequence of sketches of the display screen during a dialogue
+
+##### Note 
+
+- Storyboards can be primitive and simple, they are sufficiently detailed to show all the information presented to and entered by the user. 
+
+- The storyboard can be reviewed by users and designers to identify missing or extraneous information.
 
 ### User-Interface Design
+
+#### Decisions 
+
+- Application Type
+- Type of Device
+- Operating System
 
 ### Designing Reports, Statements, and Turnaround Documents
 
