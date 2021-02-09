@@ -12,6 +12,7 @@
 - reliability
 
 ## Order
+
 - Functions such as `5n^2` and `3n^4 + 100` are *pure* quadratic
 - Functions such as `5n^2 + n + 100` are complete quadratic because they contain a linear term `n`
 
@@ -129,9 +130,11 @@ Algorithms based on it include:
 - VLSI layouts & H-tree embedding
 
 ## Merge Sort
+
 - Comparison sorting
 
 #### Steps
+
 1. Divide the input array into single-element arrays
 2. Recursively compare and merge arrays into bigger ones
 3. Combine all solutions into a single final array
@@ -151,9 +154,11 @@ finally T(n) = Theta(n logn)
 ```
 
 ## Binary Search
+
 - [add details]
 
 #### Steps
+
 1. Check middle element and divide
 2. Recursively search the subarray less than the middle element
 3. Find value you're searching for and finish/merge
@@ -161,6 +166,7 @@ finally T(n) = Theta(n logn)
 [Content missing here, lecture 3]
 
 ## Quick Sort
+
 - Comparison sorting
 - Practical when tuned
 - Sorts in-place
@@ -276,15 +282,18 @@ To "usually" be lucky we can:
 > This is too difficult for my poor brain
 
 ## Computational Models for Sorting Algorithms
+
 - Comparison Model: Only use comparisons, cannot go beyond `nlgn`
 - Decision-Tree Model: Representation using trees
 
 ## Decision Tree Model
+
 - Each internal node is labeled i:j  `i, j ∈{1, 2,…, n}`
 - The left subtree shows subsequent comparisons if `ai ≤ aj`
 - The right subtree shows subsequent comparisons if `ai ≥ aj`
 
 #### Decision Trees model comparison sorts
+
 - **At least** one tree for each n (randomized quick sort has more than 1)
 - View algorithm as splitting whenever it makes a comparison
 - Tree lists comparisons along all possible instruction traces
@@ -292,12 +301,13 @@ To "usually" be lucky we can:
 - W-C runtime = height of tree
 
 > Can be used to prove that comparison sort algorithms cannot go beyond `nlgn` by proving that the height of the tree has to be Omega(nlgn)
->
 
 #### Lower bound on decision tree sorting
+
 Any decision tree sorting n elements has height `Omega(nlgn)`
 
 ###### Proof
+
 #leaves must be >= n!
  height h <= 2^h
  n! <= 2^h
