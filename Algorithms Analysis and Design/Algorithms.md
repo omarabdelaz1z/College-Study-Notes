@@ -91,7 +91,7 @@ T binarySearch(T elements[], int left, int right, T key){
 
 $T(n) = T(n/2) + 1$
 
-![binary_search_rr](binary_search_rr.PNG)
+![binary_search_rr](./screenshots/binary_search_rr.PNG)
 
 ## Sorting Algorithms
 
@@ -240,7 +240,7 @@ void mergeSort(T elements[], int left, int right){
 
 $T(n) = 2T(n/2) + n$
 
-![mergesort_rr](mergesort_rr.PNG)
+![mergesort_rr](./screenshots/mergesort_rr.PNG)
 
 **Recursion Tree**
 
