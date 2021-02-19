@@ -318,8 +318,8 @@ void countSort(int elements[], int size){
    - Elements already sorted or reversely sorted.
    - One side of partition has no elements.
    - $T(n) = T(0) + T(n-1) + \theta(n)$
-     - $T(n) = T(n-1) + \theta(n)$ => lead to arithmetic series.
-     - $T(n) = O(n^{2})$
+   - $T(n) = T(n-1) + \theta(n)$
+   - $T(n) = O(n^{2})$
 
 2. Best-case
 
@@ -457,5 +457,121 @@ quickSort<char>(Array, 0, sizearray-1);
 ```
 
 ### Heap Sort
+
+[RECOMMENDED](https://youtu.be/k72DtCnY4MU)
+
+- Sort a collection of elements using heap representations.
+
+#### Heap Itself
+
+- Heap is a complete binary tree. A value of a node must be `>= (or <=)` than the values of its children.
+
+  - `>=` indicates a `max-heap`, The `greatest` value in the structure is in the root node.
+
+    ![image-20210219182904892](image-20210219182904892.png)
+
+  - `<=` indicates a `min-heap`, The `smallest` value in the structure is in the root node. 
+
+    ![image-20210219182851259](image-20210219182851259.png)
+
+- [Complete Binary Tree](https://www.programiz.com/dsa/complete-binary-tree) all levels are full, except possibly the last one, which is filled from left to right
+  
+  - <div dir="rtl">
+    <strong>
+        بنضيف العناصر من اخر Level بإعتبار إن فيه مكان فاضي من الشمال لليمين، ولو مفيش نعمل Level جديد و نضيف من الشمال خالص
+    </strong>
+    </div>
+  
+    ![image-20210219184200182](image-20210219184200182.png)
+  
+  - In one sentence, Top to bottom, Left to right.
+  
+- These heap properties must be met.
+
+- We don't need to be worry about the tree and its implementation (nodes, pointers, etc.) because a heap can be represented as an array level by level.
+
+​	**Building Heap**
+
+- An array representation for Heap would be:
+
+  - If the parent is the $i^{th}$ node, its children will always be `2*i + 1` and `2*i + 2`
+  - The parent node for the $i^{th}$ node is `(i - 1)/2`
+
+- The operations that preserve the heap properties are:
+
+  1. BUILD-HEAP: takes an array and represent it to a max-heap.
+
+  2. HEAPIFY - Maintains the heap properties. Could be MAX-HEAPIFY or MIN-HEAPIFY  
+
+**Algorithm**
+
+Sorting a collection of elements as follows:
+
+- **Build**: Build the heap itself. 
+
+- **Extraction**: Delete the maximum element repeatedly which is at the root.
+  - **MAX-HEAPIFY**.
+
+The order in which the element are deleted gives the sorted sequence
+
+**Analysis**
+
+- Build-Heap takes exactly linear time: Θ(n) 
+
+**Complexity** 
+
+- In all cases it has a complexity of `n Log (n)`
+
+**Code**
+
+```cpp
+template <typename T>
+void heapify(T input[], int currentNode, int inputSize){
+    int leftChild  = (2 * currentNode) + 1;
+    int rightChild = (2 * currentNode) + 2;
+    
+    int largest = currentNode;
+
+    if(leftChild < inputSize && input[leftChild] > input[largest])
+        largest = leftChild;
+
+    if(rightChild < inputSize && input[rightChild] > input[largest])
+        largest = rightChild;
+
+    if(largest != currentNode){
+        swap(input[currentNode], input[largest]);
+        heapify(input, largest, inputSize);
+    }
+}
+
+template <typename T>
+void buildHeap(T input[], int inputSize){
+    // i: currentNode
+    
+	// the last level already has the properties of a heap. 
+    // Followed by that, we go level by level toward the root, making each
+	// subtree follow the heap properties one by one.
+    
+    for(int i = inputSize / 2 - 1; i >= 0; i--){
+        heapify(input, i, inputSize);
+    }
+}
+
+template <typename T>
+void heapSort(T input[], int inputSize){
+    buildHeap(input, inputSize);
+    
+    // i: currentNode
+    for(int i = inputSize - 1; i > 0; i--){
+        swap(input[0], input[i]);
+        heapify(input, 0, i);
+    }
+}
+```
+
+**Recurrence Relation**
+
+$T(n) = T(n − 1) + log (n)\\ T(1) = 0$
+
 
 
